@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-size: 150%;
+  color: #eeeeee;
+}
+
+h1 {
+  color: #eeeeee;
+  font-size: 4.9rem;
+  font-family: 'Parisienne', cursive;
+}
+
+h2 {
+  color: #00adb5;
+  font-size: 2rem;
+  font-family: 'Cairo', sans-serif;
+  margin-bottom: auto;
+  padding-bottom: 50px
+}
+
+h3 {
+  color: #00adb5;
+  font-family: 'Cairo', sans-serif;
+}
+
+a {
+  color: #eeeeee;
+}
+
+hr {
+  border-top: 8px dotted grey;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 5%;
+  margin: 150px auto 150px auto;
+}
+
+.profile {
+  padding-top: 50px;
+}
+
+.pigeon {
+  position: relative;
+  bottom: 300px;
+  width: 7%;
+}
+
+.topContainer {
+  background: linear-gradient(to bottom, #00adb5 0%, #222831 142%);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {
+  background: linear-gradient(to bottom, #222831 0%, #393e46 100%);
+  padding-bottom: 50px
+}
+
+.skillRow {
+  margin: 100px auto 100px auto;
+  width: 65%;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottomContainer {
+  background: linear-gradient(to bottom, #00adb5 0%, #222831 142%);
+  padding: 50px 0 20px;
+}
+
+.myImage {
+  width: 20%;
+}
+
+.skillsImage {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.serviceImage {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.webDeveloper {
+  color: #eeeeee;
+  line-height: 0;
+}
+
+.contactMessage {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Bree Serif', serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #00adb5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #00adb5;
+  color: #eeeeee;
+  background-image: -webkit-linear-gradient(top, #00adb5, #222831);
+  background-image: -moz-linear-gradient(top, #00adb5, #222831);
+  background-image: -ms-linear-gradient(top, #00adb5, #222831);
+  background-image: -o-linear-gradient(top, #00adb5, #222831);
+  background-image: linear-gradient(to bottom, #00adb5, #222831);
+  text-decoration: none;
+}
+
+a {
+  color: #222831;
+  font-family: 'Cairo', sans-serif;
+  margin: 10px 30px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #00adb5;
+}
+
+.copyRight{
+  color: #222831;
+  font-size: 1rem;
+  padding: 20px 0px;
+}
